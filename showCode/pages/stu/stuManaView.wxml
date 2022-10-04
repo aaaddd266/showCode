@@ -1,0 +1,13 @@
+<!--pages/stu/stuManaView.wxml-->
+<!--pages/personinfo/personinfo.wxml-->
+<view class="container bodyPage">
+ <view class="info-box outDiv">
+    <view class="block">
+      <icon class="icon-box-img" type="success" color="#489D3B" size="{{60}}"></icon>
+    </view>
+    <view>
+      <view class="spanDiv"> 允许{{ operation }},学号:{{ usercode }}，</view>
+      <view class="spanDiv">姓名：{{ username }}，当前时间{{ currentDate }}</view>
+    </view>
+ </view>
+</view>

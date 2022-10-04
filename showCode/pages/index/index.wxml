@@ -1,0 +1,35 @@
+<view class="container">
+  <view class="page-body">
+    <form catchsubmit="formSubmit" catchreset="formReset">
+      <view class="page-section usermotto">
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-flex " >
+           
+            <view class="weui-flex__item" style="margin: 30rpx 0" >
+              <input class="weui-input" name="username" value="{{username}}" placeholder="请输入姓名" />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="page-section usermotto">
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+              <input class="weui-input" name="usercode" value="{{usercode}}" placeholder="请输入号码" />
+          </view>
+        </view>
+      </view>
+      <view class="page-section usermotto">
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input"  name="operation" value="{{operation}}" placeholder="*请输入对应操作" />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view  >
+        <button style="background: #ED6D2C; color: #fff;margin: 30rpx 0;" type="primary" formType="submit">提交</button>
+      </view>
+    </form>
+  </view>
+</view>
